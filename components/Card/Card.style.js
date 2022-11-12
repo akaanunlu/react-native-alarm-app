@@ -16,10 +16,9 @@ export default StyleSheet.create({
 		zIndex: 1,
 		flex: 1,
 		backgroundColor: '#c7cfff',
-		marginTop: -65,
+		marginTop: -80,
 		borderRadius: 100,
 		width: Dimensions.get('screen').width / 1.4,
-
 		alignSelf: 'center',
 	},
 	text: {

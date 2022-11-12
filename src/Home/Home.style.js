@@ -7,11 +7,10 @@ export default StyleSheet.create({
 	cart_container: {
 		flex: 2,
 		margin: 20,
+		marginBottom: -10,
 	},
 	list_container: {
-		flex: 3,
-		backgroundColor: 'white',
-		margin: 20,
+		flex: 4,
+		margin: 10,
 	},
-	insert_container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
 })

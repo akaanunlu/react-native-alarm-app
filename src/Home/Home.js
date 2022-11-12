@@ -3,6 +3,7 @@ import { SafeAreaView, StatusBar, Text, View } from 'react-native'
 import style from './Home.style'
 import Card from '../../components/Card'
 import InsertButton from '../../components/InsertButton'
+import List from '../../components/List'
 
 const Home = ({ navigation }) => {
 	return (
@@ -12,10 +13,7 @@ const Home = ({ navigation }) => {
 				<Card />
 			</View>
 			<View style={style.list_container}>
-				<Text>List</Text>
-			</View>
-			<View style={style.insert_container}>
-				<InsertButton />
+				<List />
 			</View>
 		</SafeAreaView>
 	)
